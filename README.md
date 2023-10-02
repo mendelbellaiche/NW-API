@@ -24,6 +24,10 @@ NW-API a besoin de [FastAPI](https://fastapi.tiangolo.com/).
 Installation de FastAPI et des dépendances pour le projet.
 
 ```sh
+pip install virtualenv
+virtualenv -p /usr/bin/python3 venv
+source venv/bin/activate
+
 pip install fastapi
 pip install uvicorn
 pip install python-multipart
