@@ -7,7 +7,7 @@ Projet FastAPI pour la géstion de groupes et de batteries.
 - Authentification
 - Création / Lecture / Modification / Suppression de groupes
 - Création / Lecture / Modification / Suppression de batteries
-- Entrypoint supplémentaire de données
+- Endpoint supplémentaire de données
 
 
 ## Tech
@@ -36,5 +36,17 @@ Pour lancer le projet
 ```sh
 uvicorn run:app --reload
 ```
+
+## Utilisation
+
+Pour utiliser l'api, cliquez [ici](http://127.0.0.1:8000/docs)
+
+## Authetication
+
+Utilisation de comptes de tests:
+- username: johndoe, password: secret
+- username: alice, password: secret2
+
+Un cadena à coté de chaque endpoint permet de specifier les crédentials
 
 ### Mendel Bellaiche
